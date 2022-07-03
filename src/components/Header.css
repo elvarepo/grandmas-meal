@@ -1,0 +1,29 @@
+.header {
+    /* background-image: url('../images/bg4.png'); */
+    background-color: #1b1919;
+    /* background-size: cover; */
+    padding: 15px;
+    font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif; 
+    color: #d9484f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 40px;
+    border-radius: 50%;  
+}
+.icon {
+    color: #d9484f;
+}
+.header__checkout{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.header__checkout span {
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}

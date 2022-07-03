@@ -1,0 +1,33 @@
+img{
+    width: 170px;
+}
+.checkoutDish{
+    margin: 10px;
+    /* padding-left: 50px; */
+    /* width: 360px; */
+}
+.checkoutDish__n {
+    /* max-width: 70%; */
+    /* border: 1px solid black; */
+    width: 360px;
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+.checkoutDish__info{
+    align-self: flex-end;
+    font-size: 13px;
+}
+button {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 468px){
+    .checkoutDish__n {
+        flex-direction: column;
+    }
+    .checkoutDish__info{
+        align-self: unset;
+    }
+}

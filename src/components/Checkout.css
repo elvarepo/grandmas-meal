@@ -1,0 +1,11 @@
+.checkout {
+    background-color: #453f3c;
+    min-height: 100vh;
+    padding: 0 50px 50px 50px;
+    /* padding-left: 50 */
+}
+
+.checkout h2{
+    text-align: center;
+    margin: 25px;
+}
